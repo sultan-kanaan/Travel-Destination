@@ -1,12 +1,17 @@
 import React from "react";
-import './Header.css'
+import './Header.css';
+import Navbar from "../Navbar/Navbar.jsx";
+
 
 export default function Header (){
     return(
-      <div className="header">
-      <h1>Travel Destination</h1>
-      
-    </div>
+      <>
+        <header>
+        <h1>Travel Destination</h1>
+        
+        <Navbar />
+        </header>
+        </>
   
-    )}
+  )}
   
