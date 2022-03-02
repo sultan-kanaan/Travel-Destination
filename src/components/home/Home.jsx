@@ -1,3 +1,4 @@
+import React from "react";
 import './Home.css'
 
 import Header from '../header/Header.jsx';
@@ -11,7 +12,7 @@ function Home() {
     <div>
 
       <Header />
-      <Tours data ={data}/>
+      <Tours data={data}/>
       <Footer />
       
     </div>

@@ -1,10 +1,11 @@
+import React from "react";
 import './Tours.css'
 const Tours = (props) => {
     return (
 
-        <div >{
-
-            props.tour.map(data => {
+        <div >
+            {
+            props.data.map(data => {
                 return (
                     <div >
                         <h3>Place :{data.name}</h3>
