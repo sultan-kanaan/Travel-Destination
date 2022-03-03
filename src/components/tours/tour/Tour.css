@@ -1,0 +1,14 @@
+.imgstyle{
+    height: 300px;
+    width: 500px;
+  }
+  .namestyle{
+    text-align: center;
+    text-shadow: 1.5px 2px 5px #F6DDCC  ;
+  }
+  .tstyle{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 20px;
+      margin: 5px;
+    width:fit-content;
+  }
