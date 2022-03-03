@@ -19,7 +19,7 @@ export default function TourDetails(props) {
             <p >{infoData[0].id}</p>
             <p > {infoData[0].name} </p> 
              <p >
-             {isShown ? infoData[0].info : `${infoData[0].info.substring(0, 250)}`}
+             {isShown ? infoData[0].info : `${infoData[0].info.substring(0, 100)}`}
              {isShown? <button onClick={clickhandle}>see less</button>:<button onClick={clickhandle}>see more</button> } 
              </p>
    
